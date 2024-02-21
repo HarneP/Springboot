@@ -13,7 +13,7 @@ const MyOrders = () => {
   const [orders, setOrders] = useState([]);
   const [orderId , setOrderId] = useState(0);
   
-  const BASE_URL = "http://localhost:8080/products/";
+  const BASE_URL = "http://localhost:7050/products/";
 
   useEffect(() => {
     UserOrderService.getMyOrders(currentUser.id).then((resp) => {

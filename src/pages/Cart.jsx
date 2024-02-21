@@ -12,7 +12,7 @@ import CartItem from '../models/item';
 const Cart = () => {
   const [cart, setCart] = useState({});
   const currentUser = store.getState().user;
-  const BASE_URL="http://localhost:8080/products/";
+  const BASE_URL="http://localhost:7050/products/";
 
   const dispatch = useDispatch();
 

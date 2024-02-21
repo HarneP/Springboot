@@ -7,11 +7,11 @@ import { TbPhone } from "react-icons/tb";
 import {Link } from 'react-router-dom';
 import { FaInstagram } from "react-icons/fa";
 import "./Team.css";
-import venkatesh from "../images/venkatesh.jpeg"
-import rushikesh from "../images/rushikesh.png"
-import pushpak from "../images/pushpak.jpg"
-import aniket from "../images/aniket.jpeg"
-import sabiha from "../images/sabiha.jpg"
+import Ram from "../images/Ram.jpeg"
+import Piyush from "../images/Piyush.jpeg"
+import Vrushali from "../images/Vrushali.jpeg"
+import Sagar from "../images/Sagar.jpeg"
+import Abhishek from "../images/Abhishek.jpg"
 
 const TeamComponent = () => {
 
@@ -39,61 +39,61 @@ const TeamComponent = () => {
   const teamMembers = [
     {
       id: 1,
-      name: 'Venkatesh Pujari',
+      name: 'Ram Gawali',
       role: 'Software Engineer',
-      linkedn: 'https://www.linkedin.com/in/venkatesh-pujari-632101248/',
-      gmail:'venkateshpujari333@gmail.com',
+      linkedn: 'https://www.linkedin.com/in/ram-gawali-139b06244/',
+      gmail:'ramgawali45@gmail.com',
       insta:'#',
       description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur commodo consequat.',
-      photo: venkatesh,
-      phn : 9008439330
+      photo: Ram,
+      phn : 7066716689
     },
     {
       id: 2,
-      name: 'Rushikesh Nimje',
+      name: 'Piyush Harne',
       role: 'Software Engineer',
-      linkedn: 'https://www.linkedin.com/in/rushikesh-nimje-6418731b3',
-      gmail:'rushikeshnimje444@gmail.com',
+      linkedn: 'https://www.linkedin.com/in/piyush-harne-040088270/',
+      gmail:'piyushharne26@gmail.com',
       insta:'https://www.instagram.com/rushikesh_nimje/',
       description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur commodo consequat.',
-      photo: rushikesh, 
-      phn : 9518394332
+      photo: Piyush, 
+      phn : 8408855958
 
     },
     {
       id: 3,
-      name: 'Aniket Pardeshi',
+      name: 'Vrushali Kendre',
       role: 'Software Engineer',
-      linkedn: "https://www.linkedin.com/in/aniket-pardeshi-69933b21b",
-      gmail:'aniketpardeshi2001@gmail.com',
+      linkedn: "https://www.linkedin.com/in/vrashali-eknath-kendre-8ba5a6247/",
+      gmail:'vrushalikendre13@gmail.com',
       insta:'#',
       description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur commodo consequat.',
-      photo: aniket, 
-      phn : 9834985338
+      photo: Vrushali, 
+      phn : 7972633099
 
     },
     {
       id: 4,
-      name: 'Pushpak Gulkari',
+      name: 'Sagar Suryawanshi',
       role: 'Software Engineer',
-      linkedn: "https://www.linkedin.com/in/pushpak-gulkari-b11141201",
-      gmail:'gulkaripushpak@gmail.com',
+      linkedn: "www.linkedin.com/in/connect-sagar-suryawanshi",
+      gmail:' connectsagar02@gamil.com',
       insta:'#',
       description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur commodo consequat.',
-      photo: pushpak,
-      phn : 9011123007
+      photo: Sagar,
+      phn : 9403773289
 
     },
     {
       id: 5,
-      name: 'Sabiha Naikawadi',
+      name: 'Abhishek Shirote',
       role: 'Software Engineer',
-      linkedn: 'https://www.linkedin.com/in/sabiha-naikawadi-5b5872248/',
-      gmail:'sabiha.naikawadi3@gmail.com',
+      linkedn: 'www.linkedin.com/in/abhishek-shirote-90b686217',
+      gmail:'abhishekvashirote@gmail.com',
       insta:'#',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      photo:sabiha,
-      phn : 7775846686
+      photo:Abhishek,
+      phn : 9075152368
 
     },
   ];

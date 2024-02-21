@@ -9,7 +9,7 @@ const OrdersPage = () => {
   const [model, setModel] = useState(false);
   const [orders, setOrders] = useState([]);
   const [orderStat, setOrderStat] = useState(new Orderstatus("", ""));
-  const BASE_URL = "http://localhost:8080/products/";
+  const BASE_URL = "http://localhost:7050/products/";
   useEffect(() => {
     AdminOrderService.getAllOrders()
       .then((resp) => {

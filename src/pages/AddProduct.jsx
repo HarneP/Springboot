@@ -84,7 +84,7 @@ const AddCategory = () => {
                   boxShadow: "0 0 5px rgba(0, 0, 0, 0.3)",
                 }}
               >
-                Add Category
+                Add Product
               </button>
             </div>
           </form>

@@ -2,7 +2,7 @@ import React from "react";
 import { Footer } from "../components";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
-import contact from "../images/contact.png";
+import contact from "../images/Contact.jpeg";
 
 const ContactPage = () => {
   const navigate = useNavigate();

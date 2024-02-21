@@ -12,7 +12,7 @@ function HomePageAdmin() {
   const [loading, setLoading] = useState(false);
   const [categorie, setCategorie] = useState([]);
 
-  const BASE_URL="http://localhost:8080/products/";
+  const BASE_URL="http://localhost:7050/products/";
    //Fetched Data From Backend
    useEffect(() => {
     

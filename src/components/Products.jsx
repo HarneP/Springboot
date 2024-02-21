@@ -26,7 +26,7 @@ const Products = () => {
   const [loading, setLoading] = useState(false);
   const [categorie, setCategorie] = useState([]);
   let componentMounted = true;
-  const BASE_URL="http://localhost:8080/products/";
+  const BASE_URL="http://localhost:7050/products/";
 
   const dispatch = useDispatch();
 

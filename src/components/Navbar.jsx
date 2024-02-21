@@ -49,7 +49,7 @@ const Navbar = () => {
                           ! (user?.role===Role.ADMIN) ?
                                 <>
                                 <li className="nav-item">
-                                     <NavLink className="nav-link" to="/home">Home </NavLink>
+                                     <NavLink className="nav-link" to="/">Home</NavLink>
                                  </li>
                                 <li className="nav-item">
                                      <NavLink className="nav-link" to="/product">Products</NavLink>
